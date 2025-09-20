@@ -1,0 +1,16 @@
+2025-09-20 08:13:56.2190|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFO2KQ5D20S:00000001||ExceptionType=System.ArgumentNullException|ExceptionMessage=Value cannot be null. (Parameter 'principal')|ExceptionStack=   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Authentication.AuthenticationTicket..ctor(ClaimsPrincipal principal, AuthenticationProperties properties, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.ResultContext`1.Success()
+   at UrlShortener.Extensions.ServiceExtensions.<>c.<ConfigureJWT>b__13_1(AuthenticationFailedContext context) in C:\Users\Shadow\source\repos\URL Shortener\Extensions\ServiceExtensions.cs:line 179
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 34

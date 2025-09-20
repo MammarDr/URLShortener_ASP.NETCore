@@ -1,0 +1,27 @@
+1- DTOs are exposing Database fields
+	I suggest changing names, "IsActvie": true => "active": true
+
+2- Assigning plan to user has no indication on how long that subscription last.
+
+3- DTO Validation is Happening Twice, one by Global ModelBinding and the other with Validation.
+
+==== ApiLayer ===
+
+1- JWT Http-only, how to revoke, if an admin jwt leaked how to revoke all admin jwt,
+
+3- Users can't create URL because of permission
+===  ====
+
+1- separate Entity functions from FullDto functions
+
+==== DataAccessLayer ===
+
+Problems you have to not repeat:
+
+1- each Entity must have its include children, GetUser(withPlan = true) ---Include--> Plan
+2- Cancellation token implementation
+
+==== Securit Ideas ===
+1- Issue refresh token after token expires and if the old refresh token is used again, expire the tokens. one is the thief.
+
+

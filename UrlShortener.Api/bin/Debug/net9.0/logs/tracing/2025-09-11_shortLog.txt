@@ -1,0 +1,24 @@
+2025-09-11 14:32:24.2271|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFH6U9IPRU6:00000002|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFH6U9IPRU6:00000002|
+2025-09-11 14:33:16.2629|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFH6U9IPRU6:00000003|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFH6U9IPRU6:00000003|
+2025-09-11 14:45:11.0375|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH75KPGNB7:00000001
+2025-09-11 14:50:51.2278|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH78R7TM3L:00000001
+2025-09-11 14:52:57.6801|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH79JM4RB5:00000001
+2025-09-11 14:53:36.9172|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH79JM4RB5:00000002
+2025-09-11 14:59:14.5789|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7DF4MI2M:00000001
+2025-09-11 15:02:56.1567|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7FJI484J:00000001
+2025-09-11 15:07:52.6372|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7I1LN4MQ:00000001
+2025-09-11 15:09:53.8950|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7JAKQFV0:00000001
+2025-09-11 15:10:13.7016|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7JAKQFV0:00000002
+2025-09-11 15:13:46.1002|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7L80CUPT:00000001
+2025-09-11 15:21:47.8331|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7NC7OI27:00000001
+2025-09-11 15:23:32.7739|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7R2F6HPS:00000001
+2025-09-11 15:28:27.9759|ERROR|UserService.GetUserInternal|Retreiving User:admin@gmail.com has failed, 0|userEmail=admin@gmail.com, managerId=0|0HNFH7TRS29BU:00000001
+2025-09-11 20:18:45.2631|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHCV70O249:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHCV70O249:00000001|
+2025-09-11 20:23:34.4189|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD2DHR4R6:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD2DHR4R6:00000001|
+2025-09-11 20:25:17.5951|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD2DHR4R8:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD2DHR4R8:00000001|
+2025-09-11 20:27:12.8283|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD2DHR4RA:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD2DHR4RA:00000001|
+2025-09-11 20:27:52.8083|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD2DHR4RC:00000003|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD2DHR4RC:00000003|
+2025-09-11 20:29:01.3582|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD2DHR4RE:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD2DHR4RE:00000001|
+2025-09-11 20:32:31.6449|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD7OB0OHI:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD7OB0OHI:00000001|
+2025-09-11 20:34:15.7040|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHD7OB0OHK:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHD7OB0OHK:00000001|
+2025-09-11 20:42:46.9992|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHDDGH6U82:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHDDGH6U82:00000001|

@@ -1,0 +1,15 @@
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\bin\Debug\net8.0\UrlShortener.Data.deps.json
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\bin\Debug\net8.0\UrlShortener.Data.dll
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\bin\Debug\net8.0\UrlShortener.Data.pdb
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\bin\Debug\net8.0\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\bin\Debug\net8.0\UrlShortener.Models.pdb
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.csproj.AssemblyReference.cache
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShort.BE2C2118.Up2Date
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.dll
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\refint\UrlShortener.Data.dll
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\UrlShortener.Data.pdb
+C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\obj\Debug\net8.0\ref\UrlShortener.Data.dll

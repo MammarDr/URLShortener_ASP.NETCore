@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="9.0.8" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="6.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\UrlShortener.Models\UrlShortener.Models.csproj" />
+    <ProjectReference Include="..\UrlShortener.Data\UrlShortener.Data.csproj" />
+	  
+  </ItemGroup>
+
+</Project>

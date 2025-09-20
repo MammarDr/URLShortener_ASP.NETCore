@@ -1,0 +1,3 @@
+2025-09-14 10:26:27.5776|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFJE2CF9HI9:00000007|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFJE2CF9HI9:00000007|
+2025-09-14 10:33:59.7527|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:A database error occurred.|500|0HNFJE5R9FD9A:00000007|message=A database error occurred., statusCode=500, CorrelationId=0HNFJE5R9FD9A:00000007|
+2025-09-14 14:09:49.8874|ERROR|UrlService.RegisterView|Regestiring view failed||0HNFJHVO8JTH4:00000007

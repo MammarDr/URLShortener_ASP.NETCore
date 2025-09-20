@@ -1,0 +1,11 @@
+2025-09-10 11:37:32.9441|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGANLOUMB4:00000009|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGANLOUMB4:00000009|
+2025-09-10 11:46:53.1547|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGASBE3A0F:0000000F|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGASBE3A0F:0000000F|
+2025-09-10 11:58:26.6493|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGB06E5A4T:00000007|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGB06E5A4T:00000007|
+2025-09-10 14:31:52.3928|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFGDNJ4F19H:00000001
+2025-09-10 14:32:20.4353|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFGDPMTN46E:00000001
+2025-09-10 14:33:50.3371|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFGDPMTN46E:00000002
+2025-09-10 17:47:37.9731|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGH6V7VQM7:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGH6V7VQM7:00000001|
+2025-09-10 17:48:28.1099|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGH6V7VQM9:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGH6V7VQM9:00000001|
+2025-09-10 17:48:35.0159|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGH6V7VQMB:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGH6V7VQMB:00000001|
+2025-09-10 17:51:56.1092|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGH7I9DQGI:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGH7I9DQGI:00000001|
+2025-09-10 17:55:27.6556|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFGHBB38OUK:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFGHBB38OUK:00000001|

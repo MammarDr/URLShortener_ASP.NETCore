@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+C:\Users\Shadow\source\repos\UrlShortener.Models\bin\Debug\net8.0\UrlShortener.Models.deps.json
+C:\Users\Shadow\source\repos\UrlShortener.Models\bin\Debug\net8.0\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\UrlShortener.Models\bin\Debug\net8.0\UrlShortener.Models.pdb
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\refint\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.pdb
+C:\Users\Shadow\source\repos\UrlShortener.Models\obj\Debug\net8.0\ref\UrlShortener.Models.dll
+=======
+>>>>>>> 9851dde02adce6a034cc1530de4767237b797fa3
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\refint\UrlShortener.Models.dll
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.pdb
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.sourcelink.json
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfoInputs.cache
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.AssemblyInfo.cs
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.sourcelink.json
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.dll
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\refint\UrlShortener.Models.dll
+C:\Users\Shadow\Downloads\URLShortener Project\UrlShortener.Models\obj\Debug\net8.0\UrlShortener.Models.pdb

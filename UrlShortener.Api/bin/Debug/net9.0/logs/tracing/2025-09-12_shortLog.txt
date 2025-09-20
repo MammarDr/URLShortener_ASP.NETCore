@@ -1,0 +1,15 @@
+2025-09-12 08:59:36.4566|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFHQ8O14NM4:00000003
+2025-09-12 09:02:56.1363|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFHQ9L6U8FC:00000001
+2025-09-12 09:08:29.6608|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFHQE5RC93U:00000001
+2025-09-12 09:08:57.3100|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|managerId=1|0HNFHQEEBNDJ1:00000001
+2025-09-12 09:11:26.7983|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHQFQIBFVU:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFHQFQIBFVU:00000001|
+2025-09-12 09:18:38.4137|ERROR|UserService.GetUserInternal|Retreiving User:1 has failed, 1|userId=1, managerId=1|0HNFHQJQLIUIQ:00000001
+2025-09-12 15:19:09.7949|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPJ:00000002|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPJ:00000002|
+2025-09-12 15:20:20.8490|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPJ:00000003|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPJ:00000003|
+2025-09-12 15:21:19.6824|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPL:00000001|
+2025-09-12 15:21:34.6807|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000002|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPL:00000002|
+2025-09-12 15:22:20.9877|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000003|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPL:00000003|
+2025-09-12 15:25:38.7547|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPN:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI0RQ33HPN:00000001|
+2025-09-12 15:30:14.0498|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI131DRHI5:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI131DRHI5:00000001|
+2025-09-12 15:34:36.7146|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI15O81UVM:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI15O81UVM:00000001|
+2025-09-12 17:36:45.3677|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI38NCTOP7:00000002|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFI38NCTOP7:00000002|

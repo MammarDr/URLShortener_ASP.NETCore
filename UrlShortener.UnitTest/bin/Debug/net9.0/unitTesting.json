@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Microsoft.AspNetCore": "Information",
+      "Microsoft.Hosting": "Information"
+    }
+  },
+  "Jwt": {
+    "Issuer": "https://localhost",
+    "Audiences": "https://localhost:7254/webportal",
+    "SigningKey": "U8R3Qx!9pZ6@dLw0t7N*4eC1sX2vHf9J",
+    "Lifetime": 30
+  }
+}

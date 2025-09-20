@@ -1,0 +1,1 @@
+2025-09-20 08:13:56.2190|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFO2KQ5D20S:00000001|message=An unexpected error occurred., statusCode=500, CorrelationId=0HNFO2KQ5D20S:00000001|

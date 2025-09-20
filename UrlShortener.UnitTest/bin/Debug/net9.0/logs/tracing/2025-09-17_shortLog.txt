@@ -1,0 +1,42 @@
+2025-09-17 09:09:21.0545|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:09:21.2711|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:09:41.1103|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:09:41.3268|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:09:52.3132|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:11:40.3825|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:12:59.1577|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:18:50.6959|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:18:50.9145|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:18:52.7350|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:18:52.9580|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:19:20.8997|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:19:21.2243|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:19:46.2423|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:21:11.7230|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:21:14.9704|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:22:16.5147|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:22:58.6662|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:23:38.2432|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:23:38.4680|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:24:12.8032|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:24:32.0740|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:24:45.0014|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:26:09.0401|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:27:29.2327|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:29:25.6723|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:29:25.8925|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:31:48.9435|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:31:49.0163|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:31:51.4995|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:31:51.7235|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:31:58.9792|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:31:59.1996|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:34:00.3112|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:34:00.5343|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:34:31.9480|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:34:32.0222|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:45:40.7734|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:45:40.8471|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 09:46:36.2838|WARN|PlanService.CreatePlanAsync|Creating plan has failed by 1|userID=1|
+2025-09-17 09:46:36.5056|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '1' has failed by 10|planId=1, userID=10|
+2025-09-17 12:48:15.6760|WARN|PlanService.GetPlanAndCheckIfExists|Fetching plan '99999' has failed by 10|planId=99999, userID=10|

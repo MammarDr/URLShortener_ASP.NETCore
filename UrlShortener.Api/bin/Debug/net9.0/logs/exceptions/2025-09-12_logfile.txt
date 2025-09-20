@@ -1,0 +1,410 @@
+2025-09-12 08:59:36.4566|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|0HNFHQ8O14NM4:00000003|ExceptionType=Microsoft.EntityFrameworkCore.DbUpdateException|ExceptionMessage=An error occurred while saving the entity changes. See the inner exception for details.|ExceptionStack=   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TapAsync[U](Task`1 task, Func`2 action) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 231
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TryCatch[U](Task`1 task, Func`2 onFailure) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 276
+2025-09-12 09:02:56.1363|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|0HNFHQ9L6U8FC:00000001|ExceptionType=Microsoft.EntityFrameworkCore.DbUpdateException|ExceptionMessage=An error occurred while saving the entity changes. See the inner exception for details.|ExceptionStack=   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TapAsync[U](Task`1 task, Func`2 action)
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TryCatch[U](Task`1 task, Func`2 onFailure)
+2025-09-12 09:08:29.6608|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|0HNFHQE5RC93U:00000001|ExceptionType=Microsoft.EntityFrameworkCore.DbUpdateException|ExceptionMessage=An error occurred while saving the entity changes. See the inner exception for details.|ExceptionStack=   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TapAsync[U](Task`1 task, Func`2 action) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 231
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TryCatch[U](Task`1 task, Func`2 onFailure) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 276
+2025-09-12 09:08:57.3100|ERROR|UrlService.CreateUrlAsync|Creating Url has failed, 1|0HNFHQEEBNDJ1:00000001|ExceptionType=Microsoft.EntityFrameworkCore.DbUpdateException|ExceptionMessage=An error occurred while saving the entity changes. See the inner exception for details.|ExceptionStack=   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TapAsync[U](Task`1 task, Func`2 action) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 231
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TryCatch[U](Task`1 task, Func`2 onFailure) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 276
+2025-09-12 09:11:26.7983|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFHQFQIBFVU:00000001||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 28
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<CreateUrlAsync>b__6_4(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 92
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.CreateUrlAsync(CreateUrlDTO UrlDTO) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 86
+   at UrlShortener.Controllers.V1.UrlController.CreateUrl(CreateUrlDTO dto) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 09:18:38.4137|ERROR|UserService.GetUserInternal|Retreiving User:1 has failed, 1|0HNFHQJQLIUIQ:00000001|ExceptionType=System.InvalidOperationException|ExceptionMessage=The properties 'URL.ID', 'URL.VisitCount' are configured to use 'Identity' value generation and are mapped to the same table 'URLS', but only one column per table can be configured as 'Identity'. Call 'ValueGeneratedNever' in 'OnModelCreating' for properties that should not use 'Identity'.|ExceptionStack=   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.ValidateSharedColumnsCompatibility(IReadOnlyList`1 mappedTypes, StoreObjectIdentifier& storeObject, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at UrlShortener.Data.Repositories.Implementation.RepositoryBase`1.FindByConditon(Expression`1 expression, Boolean AsNoTracking) in C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\Repositories\Implementation\RepositoryBase.cs:line 17
+   at UrlShortener.Data.Repositories.Implementation.UserRepository.GetByIdAsync(Int32 id, Boolean withPlan, Boolean asNoTracking) in C:\Users\Shadow\source\repos\URLShortenerAPIDataAccessLayer\Repositories\Implementation\UserRepository.cs:line 28
+   at UrlShortener.Core.Domain.Results.ResultExtensions.MapAsync[T,U](Result`1 result, Func`2 transform) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 43
+   at UrlShortener.Core.Domain.Results.ResultExtensions.TryCatch[U](Task`1 task, Func`2 onFailure) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\RFP.cs:line 276
+2025-09-12 15:19:09.7949|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPJ:00000002||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:20:20.8490|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPJ:00000003||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:21:19.6824|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000001||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:21:34.6807|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000002||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:22:20.9877|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPL:00000003||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:25:38.7547|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI0RQ33HPN:00000001||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:30:14.0498|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI131DRHI5:00000001||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 15:34:36.7146|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI15O81UVM:00000001||ExceptionType=System.InvalidOperationException|ExceptionMessage=Nullable object must have a value.|ExceptionStack=   at System.Nullable`1.get_Value()
+   at UrlShortener.Core.Services.Implementations.UrlDomainExternal.ToFullDTO(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 29
+   at UrlShortener.Core.Services.Implementations.UrlService.<>c.<RetrieveUrlWithDTOAsync>b__21_0(URL url) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Core.Domain.Results.ResultExtensions.<>c__DisplayClass7_0`2.<Map>b__0(Task`1 t) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Domain\Results\ResultExtensions.cs:line 64
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at UrlShortener.Core.Services.Implementations.UrlService.RetrieveUrlWithDTOAsync(Int32 id) in C:\Users\Shadow\source\repos\URLShortenerAPIBusinessLayer\Services\Implementations\UrlService.cs:line 182
+   at UrlShortener.Controllers.V1.UrlController.GetUrlAsync(Int32 id) in C:\Users\Shadow\source\repos\URL Shortener\Controllers\V1\UrlController.cs:line 127
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UrlShortener.Api.Middlewares.UserContextMiddleware.InvokeAsync(HttpContext context, IUserContextAccessor user) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\UserContextMiddlewarecs.cs:line 61
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ProfilingMiddlewarecs.cs:line 17
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Shadow\source\repos\URL Shortener\Middlewares\ExceptionHandlingMiddleware.cs:line 36
+2025-09-12 17:36:45.3677|WARN|ExceptionHandlingMiddleware.WriteError|Exception Caught:An unexpected error occurred.|500|0HNFI38NCTOP7:00000002||ExceptionType=System.TypeLoadException|ExceptionMessage=Could not load type 'Invalid_Token.0x02000119' from assembly 'UrlShortener.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.|ExceptionStack=   at UrlShortener.Extensions.ServiceExtensions.<>c.<ConfigureJWT>b__12_1
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at UrlShortener.Api.Middlewares.ProfilingMiddlewarecs.InvokeAsync(HttpContext context)
+   at UrlShortener.Api.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context)

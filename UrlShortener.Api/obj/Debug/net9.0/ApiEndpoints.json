@@ -1,0 +1,3441 @@
+[
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.RedirectController",
+    "Method": "GetSourceAndRedirect",
+    "RelativePath": "{shortcode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortcode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 301
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "CreatePlanAsync",
+    "RelativePath": "api/v{version}/Plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planInfo",
+        "Type": "UrlShortener.Models.DTOs.Plan.CreatePlanDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.Plan.FullPlanDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "GetAllPlansAsync",
+    "RelativePath": "api/v{version}/Plan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "HasCustomSlugs",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupportLevels",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.Enums.enSupportLevel, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Plan.FullPlanDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "GetAllPlansAsync",
+    "RelativePath": "api/v{version}/Plan",
+    "HttpMethod": "HEAD",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "HasCustomSlugs",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupportLevels",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.Enums.enSupportLevel, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Plan.FullPlanDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "GetPlanAsync",
+    "RelativePath": "api/v{version}/Plan/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.Plan.FullPlanDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetPlanById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "UpdatePlanAsync",
+    "RelativePath": "api/v{version}/Plan/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDto",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "DeletePlan",
+    "RelativePath": "api/v{version}/Plan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "CreatePlansAsync",
+    "RelativePath": "api/v{version}/Plan/Collection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Plan.CreatePlanDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Plan.FullPlanDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "GetPlansAsync",
+    "RelativePath": "api/v{version}/Plan/Collection/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Plan.FullPlanDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetPlansById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.PlanController",
+    "Method": "DeleteByIDs",
+    "RelativePath": "api/v{version}/Plan/Collection/{ids}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "ids",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "CreateUrl",
+    "RelativePath": "api/v{version}/Url",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Models.DTOs.Url.CreateUrlDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.Url.FullUrlDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetAllUrlsAsync",
+    "RelativePath": "api/v{version}/Url",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetAllUrlsAsync",
+    "RelativePath": "api/v{version}/Url",
+    "HttpMethod": "HEAD",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetUrlAsync",
+    "RelativePath": "api/v{version}/Url/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.Url.FullUrlDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetUrlById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "UpdateUrlAsync",
+    "RelativePath": "api/v{version}/Url/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDto",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "RemoveUrl",
+    "RelativePath": "api/v{version}/Url/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "CreateUrlsAsync",
+    "RelativePath": "api/v{version}/Url/Collection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.CreateUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetUrlsById",
+    "RelativePath": "api/v{version}/Url/Collection/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetUrlsById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "RemoveByIDs",
+    "RelativePath": "api/v{version}/Url/Collection/{ids}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetOwnedUrlsById",
+    "RelativePath": "api/v{version}/Url/Collection/me/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetOwnedUrlsById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetAllOwnedUrlsAsync",
+    "RelativePath": "api/v{version}/Url/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetAllOwnedUrlsAsync",
+    "RelativePath": "api/v{version}/Url/me",
+    "HttpMethod": "HEAD",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxVisitCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.Url.FullUrlDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "GetOwnedUrlAsync",
+    "RelativePath": "api/v{version}/Url/me/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.Url.FullUrlDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetOwnedUrlById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UrlController",
+    "Method": "RemoveMyUrl",
+    "RelativePath": "api/v{version}/Url/me/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "CreateUserAsync",
+    "RelativePath": "api/v{version}/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Models.DTOs.User.CreateUserDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ],
+    "EndpointName": "CreateUser"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/v{version}/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PlanId",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/v{version}/User",
+    "HttpMethod": "HEAD",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PlanId",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "GetUserAsync",
+    "RelativePath": "api/v{version}/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetUserById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/v{version}/User/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDto",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "DeleteUserAsync",
+    "RelativePath": "api/v{version}/User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "GetUsersByIDsAsync",
+    "RelativePath": "api/v{version}/User/Collection/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetUsersById"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "DeleteUsersAsync",
+    "RelativePath": "api/v{version}/User/Collection/{ids}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "LogInAsync",
+    "RelativePath": "api/v{version}/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Models.DTOs.User.AuthenticationRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.AccessTokenDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "GetMeAsync",
+    "RelativePath": "api/v{version}/User/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "UpdateMeAsync",
+    "RelativePath": "api/v{version}/User/me",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patchDto",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "DeleteMe",
+    "RelativePath": "api/v{version}/User/me",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "RefreshTokenAsync",
+    "RelativePath": "api/v{version}/User/RefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Models.DTOs.User.RefreshTokenDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.AccessTokenDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ]
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "SignUpAsync",
+    "RelativePath": "api/v{version}/User/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UrlShortener.Models.DTOs.User.CreateInternalUserDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.AccessTokenDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ],
+    "EndpointName": "SignUp"
+  },
+  {
+    "ContainingType": "UrlShortener.Controllers.V1.UserController",
+    "Method": "CreateUsersAsync",
+    "RelativePath": "Collection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UrlShortener.Models.DTOs.User.CreateUserDTO, UrlShortener.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "UrlShortener.Models.DTOs.User.FullUserDTO",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 409
+      }
+    ],
+    "EndpointName": "CreateUsers"
+  }
+]
